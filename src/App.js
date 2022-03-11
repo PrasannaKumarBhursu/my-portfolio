@@ -1,12 +1,35 @@
+import React from 'react';
+
+
 
 import './App.css';
 
-function App() {
+
+import Profile from "./components/Profile"
+import Completions from "./components/Completions"
+import Skills from "./components/Skills"
+import Contact from "./components/Contact"
+import Navbar from "./components/Navbar"
+
+
+
+
+export default function App() {
+  
+ 
+
   return (
-    <div className="App">
-      Hello Prasanna
+    <>
+    <Navbar/>
+    <div className="app-container">
+      <Profile/>
+      <Completions/>
+      <Skills/>
+      <Contact/>
     </div>
+    </>
+   
+  
+   
   );
 }
-
-export default App;

@@ -1,0 +1,35 @@
+.testing{
+    background-color: "blue";
+}
+
+.slider-container {
+    background-color:aliceblue;
+    padding: 40px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+@media all and (min-height:768px){
+    .slider-container {
+        min-height: 40vh;
+        padding: 20px;
+    }
+}
+
+
+.skills-headings{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Bree Serif";
+}
+
+.ccbp-heading{
+    color: #3a3434;
+    font-weight: bold;
+}
+

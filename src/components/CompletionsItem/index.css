@@ -1,0 +1,29 @@
+.completion-image{
+    width: 100%;
+    height: 25em;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.completion-image-container{
+    height: 27em;
+    width: 20em;
+    margin-right: 1em;
+    
+}
+
+@media all and (max-width:600px){
+    .completion-image{
+        width: 100%;
+        height: 17em;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .completion-image-container{
+        height: 24em;
+        width: 15em;
+        margin-right: 0.8em;
+        
+    }
+}

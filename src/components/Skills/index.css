@@ -1,0 +1,36 @@
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    width: 90%;
+    
+}
+
+.skills-headings{
+    color: rgb(42, 43, 44);
+}
+
+.buttons{
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+.skills-inner-conttainer{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.para-soon{
+    color: rgb(104, 102, 99);
+}
+
+.anchor-styles{
+    text-decoration: none;
+}
