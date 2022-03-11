@@ -19,15 +19,15 @@ export default function App() {
  
 
   return (
-    <>
-    <Navbar/>
     <div className="app-container">
+    <Navbar/>
+    <div className="app-inner-container">
       <Profile/>
       <Completions/>
       <Skills/>
       <Contact/>
     </div>
-    </>
+    </div>
    
   
    
